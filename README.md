@@ -1,2 +1,2 @@
 # Natural-scene-image-retrieval
-This project is Content Based Image Retrieval
+This project is an Content Based Image Retrieval sytem
