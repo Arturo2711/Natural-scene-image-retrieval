@@ -85,7 +85,7 @@ def get_Window(point, channel):
 
 def generate_points(image): ## We pass the image just to get the dimension, once we get the dimension, we can limit the random function
     # Generate coordinates of random points
-    num_points = 300  # Number of random points
+    num_points = 100  # Number of random points
     width, height, _ = image.shape
     points_x = np.random.randint(0, width, size=num_points)
     points_y = np.random.randint(0, height, size=num_points)
@@ -143,7 +143,7 @@ def write_Instance(path, image_path, vector):
 ### Feature extraction 
 
 def feature_Extraction():
-    for i in range(1015, 1468):
+    for i in range(1244, 1367):
         path = 'DataBase/TORRALBA_MOD_TODAS/IMAGEN{}.jpg'.format(i)
         image = loadImage(path)
         image = rgb_to_hsi(image)
@@ -155,7 +155,7 @@ def feature_Extraction():
 
 
 
-feature_Extraction()
+#feature_Extraction()
 
 
 
