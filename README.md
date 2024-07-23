@@ -11,7 +11,9 @@ This repository demonstrates how to build a Content Based Image Retrieval (CBIR)
 - Train a Bayesian classifier with the clustered data.
 - Generate an indexed database. For each image, enumerate the times each feature has been classified as any of the 9 features. The resulting database will look like this:
 
-![Indexed Database](asserts\indexes_Db.png)
+<div align="center">
+    <img src="asserts/indexes_Db.png" alt="Indexed Database">
+</div>
 
 Finally, to retrieve similar images given any image, follow these steps:
 
@@ -23,7 +25,11 @@ This approach ensures that the retrieved images are similar in terms of their co
 
 Here are some diagrams to better understand the process:
 
-![Indexed Diagram](asserts\indexed_diagram.png)
+<div align="center">
+    <img src="asserts/indexed_diagram.png" alt="Indexed Diagram">
+</div>
 
-![Final Diagram](asserts\final_diagram.png)
+<div align="center">
+    <img src="asserts/final_diagram.png" alt="Final Diagram">
+</div>
 
